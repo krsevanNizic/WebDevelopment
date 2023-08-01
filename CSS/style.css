@@ -1,0 +1,49 @@
+body{
+	background-image:url("background_image.jpg");
+	background-size: cover;
+}
+
+
+ p {
+	color:#483277;
+	text-align: center;
+	border: 5px solid rgba(186, 175, 209,0.4);
+	cursor: pointer;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+p{
+	color: white;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: 'Poiret One', cursive;
+}
+img{
+	float: left;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+#div1{
+	background-color: rgba(0, 0, 255, 0.2);
+}
+#div2{
+	background-color: rgba(0, 255, 0, 0.2);
+}
+
+.webtext:first-child {
+	border: 5px dashed deeppink;
+}
+
+.active {
+	color: red;
+	font-weight: bold;
+}
